@@ -1,5 +1,5 @@
 
-爬取的信息 可参考 project.csv
+爬取的信息格式   可参考 project.csv
 
 可根据具体信息需求对脚本进行调整，以适应任务 \
 由于是临时的任务，所以选取了selenium的方法来进行爬虫（比较low），如果有大神有想法，可以重构 \
@@ -7,7 +7,7 @@
 
 ### 前提准备
 
-sudo cp chromedriver /usr/bin/ \
+sudo cp chromedriver /usr/bin/ \   # 这里的chromedriver要根据你自己的chrome版本来匹配，我这里附送的不一定对
 sudo chmod a+x /usr/bin/chromedriver \
 pip3 install selenium
 
