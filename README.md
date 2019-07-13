@@ -7,17 +7,17 @@
 
 ### 前提准备
 
-sudo cp chromedriver /usr/bin/
-sudo chmod a+x /usr/bin/chromedriver
+sudo cp chromedriver /usr/bin/ \
+sudo chmod a+x /usr/bin/chromedriver \
 pip3 install selenium
 
 ### 
 
 ### 使用说明
 需要提前将搜索的关键字，选项手动选好搜索之后将url网址替换到.py文件中相应的url变量赋值，并且要将该搜索情况下的页数填入page_num,根据自己的cpu性能填写threadNum数量（这将影响你的爬虫完成速度)
-总结来说 1.设置url
-        2.设置page_num
-        3.设置threadNum
+总结来说 1.设置url \
+        2.设置page_num \
+        3.设置threadNum \
 使用之前只需设置好这三个参数就可以开始跑了 ubuntu/windows 中终端里 python3 ccgp_gov.py 即可
 ####
 
