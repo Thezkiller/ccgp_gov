@@ -58,6 +58,7 @@ def crawler(url,page_num,threadNum):
         driver.find_element_by_css_selector("a[class='next']").click()
         for elemente in driver.find_elements_by_css_selector("a[style='line-height:18px']"):
             website_list.append(elemente.get_attribute("href"))
+        print("剩余{}页地址爬取，{}页地址信息分析中".format(left_page,left_page+1),end='\r')
         # time.sleep(0.5)
         left_page -= 1
 
