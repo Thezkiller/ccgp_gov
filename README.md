@@ -7,8 +7,11 @@
 
 ### 前提准备
 # 这里的chromedriver要根据你自己的chrome版本来匹配
-sudo cp chromedriver /usr/bin/ \ 
+
+sudo cp chromedriver /usr/bin/
+
 sudo chmod a+x /usr/bin/chromedriver \
+
 pip3 install selenium
 
 ### 
