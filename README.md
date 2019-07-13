@@ -6,7 +6,7 @@
 
 
 ### 前提准备
-# 这里的chromedriver要根据你自己的chrome版本来匹配
+#### 这里的chromedriver要根据你自己的chrome版本来匹配
 
 sudo cp chromedriver /usr/bin/
 
